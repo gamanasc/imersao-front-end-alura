@@ -55,17 +55,67 @@ a{
     margin-top: 10px;
     background-color: #121212;
     border-radius: 8px;
-    padding: 28px;
+    padding: 14px 28px 28px 28px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+
+.library .library__content{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.library__button{
+.library .library__button{
     display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
 
 }
-.library__button span{
+.library .library__button span{
     font-weight: 600;
     margin: 0 8px 0 0;
+}
+
+.section-playlist{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #242424;
+    margin: 8px 0px;
+    padding: 16px 20px;
+}
+
+.section-playlist .section-playlist__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist__content .text{
+    padding-bottom: 14px;
+    color: #fff;
+}
+
+.section-playlist__content .title{
+    font-weight: 700;
+}
+
+.section-playlist__content .subtitle{
+    font-weight: 500;
+    font-size: 12px;
 }
