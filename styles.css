@@ -135,3 +135,18 @@ a{
     padding: 10px;
     margin-top: 12px;
 }
+
+
+.sidebar .cookies{
+    margin: 25px 0px;
+}
+
+.sidebar .cookies a{
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.sidebar .cookies a:hover{
+    text-decoration: underline;
+}
