@@ -131,12 +131,18 @@ a{
     font-weight: 700;
     text-decoration: none;
     text-transform: none;
-    border: 0px;
+    border: 2px solid white;
     width: 113px;
     padding: 10px;
-    margin-top: 12px;
+    margin-top: 10px;
+    transition: 0.2s all ease-in-out;
+    cursor: pointer;
 }
 
+.section-playlist__content .section-playlist__button:hover{
+    background-color: transparent;
+    color: #fff;
+}
 
 .sidebar .cookies{
     margin: 25px 0px;
