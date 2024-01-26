@@ -169,3 +169,54 @@ a{
     margin: 8px 0px;
     padding: 8px;
 }
+
+footer{
+    background: linear-gradient(45deg, #bb2795, #428ae5);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+}
+
+.footer__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 70%;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.footer__right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding: 0px 20px;
+}
+
+.footer__right .btn-footer{
+    border: 2px solid white;
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: .2s all ease-in-out;
+    cursor: pointer;
+}
+
+.footer__right .btn-footer:hover{
+    color: #FFF;
+    background-color: transparent;
+}
+
+.footer__left span{
+    margin: 5px 0px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
