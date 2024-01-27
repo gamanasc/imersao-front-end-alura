@@ -175,9 +175,9 @@ footer{
     position: fixed;
     bottom: 0;
     left: 0;
-    padding: 20px;
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 .footer__left{
@@ -185,17 +185,16 @@ footer{
     flex-direction: column;
     justify-content: space-between;
     align-items: baseline;
-    width: 70%;
     color: #FFF;
     font-size: 14px;
+    padding: 20px;
 }
 
 .footer__right{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
-    padding: 0px 20px;
+    padding: 20px;
 }
 
 .footer__right .btn-footer{
